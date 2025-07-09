@@ -1,0 +1,14 @@
+.section-title {
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.section-text {
+    font-size: 18px;
+    color: #757575;
+} 
+
+/* about section*/
+.about {
+    border-radius: 10px;
+}
