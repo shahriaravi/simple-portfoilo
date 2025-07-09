@@ -11,4 +11,27 @@
 /* about section*/
 .about {
     border-radius: 10px;
+    padding: 130px 150px;
+    margin-top: 130px;
+    text-align: center;
+}
+
+main {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+.item {
+    color: #757575;
+}
+
+.item-description {
+     font-size: 20px;
+     font-weight: bold;
+}
+
+.about-items {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
