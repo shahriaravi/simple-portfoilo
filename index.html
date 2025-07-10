@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mary - Web Dev</title>
     <!-- linking css files -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
      <link rel="stylesheet" href="styles/config.css">
     <link rel="stylesheet" href="styles/nav.css">
     <link rel="stylesheet" href="styles/banner.css">
@@ -25,8 +26,8 @@
            <h3 class="banner-openning dark-2">Hi, I  am</h3>
            <h1 class="banner-title">Mary Hardy</h1>
            <p class="banner-txt dark-2">Shot what able cold new see hold.Friendly as an betrayed formerly he. Morning because as to society behaved moments.</p>
-           <button class="btn-primary">Download CV</button>
-           <button class="btn-primary">Contact</button>
+           <button class="btn-primary"> <i class="fa-solid fa-circle-down"></i> Download CV</button>
+           <button class="btn-primary"> <i class="fa-solid fa-phone"></i> Contact</button>
           </div>
           <img class="banner-pic" src="/images/hardy.png" alt="Developer-Hardy's Image">
           </div>
@@ -132,13 +133,30 @@ to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eg
            </div>
            </div>
            <div class="cv-button">
-          <button class="btn-primary">Download CV</button>
+          <button class="btn-primary"> <i class="fa-solid fa-circle-down"></i> Download CV</button>
            </div>
          </section>
     </main>
+    <footer class="bg">
+<div class="footer-column">
+  <h3 class="footer-title">Let's Connect</h3>
+  <p>Please fill out the form on this section to contact with me or call between 9:00 A.M and 8.00 P.M ET, Monday through Friday.</p>
+  <div>
+    <a href=""><img src="/images/icons/facebook.png" alt=""></a>
+    <a href=""><img src="/images/icons/twitter.png" alt=""></a>
+    <a href=""><img src="/images/icons/insta.png" alt=""></a>
+  </div>
+</div>
+<div class="footer-column">
+  <h3 class="footer-title">Let’s Message me</h3>
+  <form action="">
+    <input type="text" placeholder="Your Name" required>
+    <input type="email" placeholder="Your Email" required>
+    <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+    <button class="btn-primary"> <i class="fa-solid fa-paper-plane"></i> Send</button>
 
-    <footer>
-
+  </form>
+</div>
     </footer>
 </body>
 </html>

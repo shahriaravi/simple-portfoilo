@@ -25,6 +25,13 @@
   border: none;
 }
 
+.btn-primary:hover {
+  background-color: purple;
+  
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+}
+
 .bg {
   background-color: #FFF8F3;
 }
